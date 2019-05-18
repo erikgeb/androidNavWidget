@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main_navigation"
+            app:startDestination="@id/blankFragment">
+
+    <fragment android:id="@+id/blankFragment" android:name="com.geb.navwithwidget.BlankFragment"
+              android:label="fragment_blank" tools:layout="@layout/fragment_blank"/>
+
+    <fragment android:id="@+id/itemFragment" android:name="com.geb.navwithwidget.ItemFragment"
+              android:label="fragment_item_list" tools:layout="@layout/fragment_item_list"/>
+
+    <fragment android:id="@+id/plusOneFragment" android:name="com.geb.navwithwidget.PlusOneFragment"
+              android:label="fragment_plus_one" tools:layout="@layout/fragment_plus_one"/>
+</navigation>
